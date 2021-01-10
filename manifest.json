@@ -1,0 +1,10 @@
+{
+  "name": "Neo Themes",
+  "id": "929209271485217632",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "menu": [
+    {"name": "To Dark", "command": "dark"},
+    {"name": "To Light", "command": "light"}
+  ]
+}
