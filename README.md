@@ -9,7 +9,7 @@ Convert your designs into one of Neo's supported themes (currently included ligh
 3. Once the plugin finishes running, you'll see a message letting you know how many layers were affected.
 
 ## Demo
-![GIF of using the plugin](https://github.com/shantsis/Neo-Themes/blob/master/demo.gif)
+![GIF of using the plugin](https://github.com/shantsis/Neo-Themes/blob/main/demo.gif)
 
 ## Prerequisites
 This plugin will only work for Neo color styles and elevation tokens. Other libraries such as branding and unlinked colors will not be affected. To take advantage of the plugin, make sure the correct colors are applied before running.
