@@ -1,5 +1,5 @@
 # Introduction
-Convert your designs into one of Neo's supported themes (currently included light & dark mode).
+This is a private figma plugin to convert designs into one of [Neo's](https://design.avayacloud.com) supported themes (currently included light & dark mode).
 
 # How to Use
 1. Select the frame(s) you'd like to have the changes applied (it's recommended to make a copy of the original work).
