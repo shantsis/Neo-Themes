@@ -56,7 +56,7 @@ var purple_600 = "2e8b55ed76b474a17ee29c9b2fce08aca7210c0d"
 var purple_800 = "3e69a92395a56c67e217f03854908faef3126a56"
 var purple_900 = "411ae851dece317452086b4b797c778ca9609818"
 
-//data viz colors - missing their counterpart
+//data viz colors
 var data_blue_dark = "7a60d1513f5725156707ac542edfca12b2d5e39a"
 var data_blue_mid = "04c3703ab42c221711f6177a251ceecdee54c964"
 var data_purple_light = "75a48503ffcb9045a714403a5f35bfd33046eb54"
@@ -66,8 +66,17 @@ var data_pink = "147580c9508eb9954ac95cbb6ed1932b9a5fadb6"
 var data_red = "2ba15af70951a6211a578bffeb1afb3fe480a4cf"
 var data_orange = "0727186585aed3490fb2dcf585b8817b96fb6506"
 var data_purple = "c5eb222b6622c1b26bbc6da5a57f4f8e98ef3c10"
+var data_dark_blue_dark = "6ba79fb5c195c0cb7f6385f840abfaf1ffc89a1f"
+var data_dark_blue_mid = "d8e29b311f58681611882eae162ca8019f8ff42c"
+var data_dark_purple_light = "76499b224368f7282c3f107ce3807b2bd6cd0db9"
+var data_dark_teal = "511ce494c1863cd4797ab219f262e3c8062f9a12"
+var data_dark_green = "3f0a1609d8c8d50f7b52ce6765e9da0efc39ee4b"
+var data_dark_pink = "597df9ba41a02d8b6f34982ea3a550c4ab9b6241"
+var data_dark_red = "609f1bae22ece3a3472359ec63c152a96117050d"
+var data_dark_orange = "5d466ab718960ecea908d9048598ee81b528b3dc"
+var data_dark_purple = "b7abc2907c8612568efbe96fc6d64d24e94c91c6"
 
-//border color for elevation - missing counterpart
+//border color for elevation
 var border_elevation = "a80d035a99b84b3e1807e17f3769437b629f47dd"
 var border_elevation_dark = "075181b23891b9769c9ec74298fb17781e71f7c0"
 
@@ -153,7 +162,19 @@ export var themes = [
     {light: elevation_100, dark:elevation_dark_100},
     {light: elevation_200, dark: elevation_dark_200},
     {light: elevation_300, dark:elevation_dark_300},
-    {light: elevation_400, dark: elevation_dark_400}
+    {light: elevation_400, dark: elevation_dark_400},
+
+    //data viz
+    {light: data_blue_dark, dark: data_dark_blue_dark},
+    {light: data_blue_mid, dark: data_dark_blue_mid},
+    {light: data_purple_light, dark: data_dark_purple_light},
+    {light: data_teal, dark: data_dark_teal},
+    {light: data_green, dark: data_dark_green},
+    {light: data_pink, dark: data_dark_pink},
+    {light: data_red, dark: data_dark_red},
+    {light: data_orange, dark: data_dark_orange},
+    {light: data_purple, dark: data_dark_purple}
+
 ]
 
 export async function importColors(){
