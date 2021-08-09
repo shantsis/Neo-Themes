@@ -12,12 +12,14 @@ export function toTheme(theme, selection){
     if (selection.length != undefined || selection.length > 0){
         //loop through the selection
         for (var node of selection){
-            doAll(theme, node)      
+            doAll(theme, node)
+            node.setRelaunchData({ dark: 'Convert the design to dark mode', light: 'Convert the design to light mode' })      
         }
     }
     else {
         doAll(theme, selection) 
     }
+    
     return [countApplied, countTotal]
 }
 

@@ -6,5 +6,9 @@
   "menu": [
     {"name": "To Dark", "command": "dark"},
     {"name": "To Light", "command": "light"}
+  ],
+  "relaunchButtons": [
+    {"command": "dark", "name": "Neo Themes - To Dark", "multipleSelection": true},
+    {"command": "light", "name": "Neo Themes - To Light", "multipleSelection": true}
   ]
 }
